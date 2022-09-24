@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "RelevamientoVisual",
+    "slug": "RelevamientoVisual",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/qr_icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_utn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "red"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/camara_icono.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.maxibuera.RelevamientoVisual"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
